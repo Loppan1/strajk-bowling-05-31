@@ -31,7 +31,6 @@ function Booking() {
 
   function updateSize(event) {
     const { value, name } = event.target;
-    console.log(value);
     setError(false);
 
     if (value.length === 2 || value.length === 0) {
